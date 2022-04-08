@@ -96,6 +96,7 @@ li:first-child {
 
 li:last-child {
     font-style: italic;
+    margin-bottom: 0;
 }
 
 /* li:nth-child(even) {
@@ -153,9 +154,14 @@ a:hover {
 }
 
 nav a:link {
+    /* background-color: orangered: 
+    margin: 20px;
+    padding: 20px;
+
+    display: block; */
+
     display: inline-block;
     margin-right: 30px;
-    margin-top: 10px;
 }
 
 nav a:link:last-child {
@@ -195,7 +201,7 @@ h2::before {
 }
 
 /* FLOATS */
-.author-img {
+/* .author-img {
     float:left;
     margin-bottom: 20px;
 }
@@ -236,5 +242,26 @@ aside {
 
 footer {
     clear: both;
+} */
+
+/* FLEXBOX */
+.main-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
+.author-box {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+} 
+
+.author {
+    margin-bottom: 0;
+    margin-left: 15px;
+}
+
+.related-post {
+    display: flex;
+}
