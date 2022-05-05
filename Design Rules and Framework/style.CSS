@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: 'Andika New Basic', sans-serif;
+  font-family: 'Inter', sans-serif;
   color: black;
   /* border-bottom: 8px solid #087f5b; */
 }
@@ -33,13 +33,24 @@ header {
   line-height: 1.5;
 }
 
-.btn:link, .btn:visited {
+.btn:link,
+.btn:visited {
   background-color: #087f5b;
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 500;
-  
+  display: inline-block;
+  border-radius: 100px;
+}
+
+.btn--big {
+  font-size: 18px;
+  padding: 16px 32px;
+}
+
+.btn:hover, .bth:active {
+  background-color: #099268;
 }
 
 h1 {
