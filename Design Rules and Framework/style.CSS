@@ -7,7 +7,7 @@
 body {
   font-family: 'Inter', sans-serif;
   color: black;
-  /* border-bottom: 8px solid #087f5b; */
+  border-bottom: 8px solid #087f5b;
 }
 
 .container {
@@ -160,4 +160,10 @@ h3 {
 .btn--small {
   font-size: 14px;
   padding: 8px 12px;
+}
+
+footer {
+  font-size: 14px;
+  margin-bottom: 48px;
+  color: #495057;
 }
