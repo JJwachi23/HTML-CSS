@@ -73,7 +73,7 @@ h2 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   column-gap: 80px;
-  margin-bottom: 96px;
+  /* margin-bottom: 96px; */
 }
 
 .feature-icon {
@@ -91,3 +91,28 @@ h2 {
   line-height: 1.5;
   font-size: 18px;
 }
+
+.testimonial-section {
+  background-color: #087f5b;
+  color: #fff;
+  border-radius: 18px;
+  padding: 24px;
+  margin-bottom: 96px;
+}
+
+.testimonial-box {
+  grid-column: 2 / -1;
+  align-self: center;
+}
+
+.testimonial-box h2 {
+  font-size: 24px;
+  margin-bottom: 24px;
+}
+
+.testimonial-text {
+  font-size: 18px;
+  font-style: italic;
+  margin-bottom: 24px;
+}
+
