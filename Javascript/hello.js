@@ -17,7 +17,7 @@
 //     // console.log(FirstName);
 // }
 
-// alert(FirstName);66
+// alert(FirstName);
 //  var  จะไม่มี Scope หรือเวลาประกาศตัวแปร ถ้าจะเรียกใช้ก็สามารถเรียกใช้ได้เลยโดยไม่ต้องทำงานภายใน {}
 
 // /............................................../ 
@@ -26,6 +26,9 @@
 // }
 // alert(LastName);
 // let มี Scope ในการทำงาน หรือเวลาประกาศตัวแปรทำงานภายใน {}
+
+
+// ****************** Random Number Program and store values
 
 // let name = prompt("Please enter a message..");
 // console.log(name);
@@ -42,30 +45,32 @@
 
 
 
-// *Boolean true, false การเปรียบเทียบค่า
-console.log(10 == 10);
-console.log(10 == 20);
+// ******************Boolean true, false การเปรียบเทียบค่า
+// console.log(10 == 10);
+// console.log(10 == 20);
 
-console.log("10" == 10);
+// console.log("10" == 10);
 // ในภาษา Javascript == เป็นการเปรียบเทียบค่า ฝั่งซ้าย เท่ากับ ฝั่งขวา โดยจะไม่สนชนิดของข้อมูล
 
-console.log("10" === 10);
+// console.log("10" === 10);
 // ในภาษา Javascript === เป็นการเปรียบเทียบค่า ฝั่งซ้าย เท่ากับ ฝั่งขวา และชนิดของข้อมูล
 
-console.log("hello" == "Hello");
+// console.log("hello" == "Hello");
 // ในภาษา Javascript ตัวพิมพ์เล็กพิมใหญ่ คือคนละตัวกัน
 
-console.log("5" != "5");
+// console.log("5" != "5");
 // != คือเครื่องหมาย ไม่เท่ากับ
 
-console.log("hello" != "Hello");
-console.log("4" != 4);
+// console.log("hello" != "Hello");
+// console.log("4" != 4);
 
-console.log("5" !== 5);
+// console.log("5" !== 5);
 // !== เป็นการเปรียบและ ชนิดของข้อมูล
 
-console.log(10 > 5);
-console.log(10 < 5);
+// console.log(10 > 5);
+// console.log(10 < 5);
 
-console.log(10 >= 5);
-console.log(10 <= 5);
+// console.log(10 >= 5);
+// console.log(10 <= 5);
+
+// ******************
