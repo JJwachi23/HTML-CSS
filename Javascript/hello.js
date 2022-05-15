@@ -40,6 +40,9 @@
 
 // document.getElementById("result").innerHTML = Math.floor(Math.random() * 100)
 
+
+
+// *Boolean true, false การเปรียบเทียบค่า
 console.log(10 == 10);
 console.log(10 == 20);
 
@@ -60,3 +63,9 @@ console.log("4" != 4);
 
 console.log("5" !== 5);
 // !== เป็นการเปรียบและ ชนิดของข้อมูล
+
+console.log(10 > 5);
+console.log(10 < 5);
+
+console.log(10 >= 5);
+console.log(10 <= 5);
