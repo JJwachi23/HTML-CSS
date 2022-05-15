@@ -73,4 +73,10 @@
 // console.log(10 >= 5);
 // console.log(10 <= 5);
 
-// ******************
+// ******************เกี่ยวกับการกำจัดอายุ if
+let age = prompt("Please enter your Age to continue.");
+// console.log(age);
+if(age >= 13){
+    document.getElementById("content").innerHTML = "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/UHpJzCd_lXo\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+    // HTML iframe ถ้า copy มาจะต้องใส่เครื่องหมาย \ (backslash) 
+}
