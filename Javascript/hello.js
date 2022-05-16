@@ -84,5 +84,13 @@
 
 // ***********************
 let lotto_number = prompt("Please enter a number");
-document.getElementById("random").innerHTML = (Math.floor(Math.random() * 100));
+let random_number = Math.floor(Math.random() * 100 )
 
+document.getElementById("random").innerHTML = (Math.floor(Math.random() * 100));
+if (lotto_number == random_number){
+    document.getElementById("result").innerHTML = "Congratulations you won!"
+}
+
+else {
+    document.getElementById("result").innerHTML = "Sorry, you didn't get the award."
+}
