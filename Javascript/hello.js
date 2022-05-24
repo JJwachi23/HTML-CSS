@@ -83,12 +83,49 @@
 // }
 
 // ***********************
-let lotto_number = prompt("Please enter a number");
-let random_number = Math.floor(Math.random() * 100 )
+// let lotto_number = prompt("Please enter a number");
+// let random_number = Math.floor(Math.random() * 100 );
 
-document.getElementById("random").innerHTML = (Math.floor(Math.random() * 100));
-if (lotto_number == random_number){
-    document.getElementById("result").innerHTML = "Congratulations you won!"
+// console.log(lotto_number);
+
+// document.getElementById("random").innerHTML = random_number;
+
+// if (lotto_number == random_number){
+//     document.getElementById("result").innerHTML = "Congratulations you won!"
+// }
+
+// else {
+//     document.getElementById("result").innerHTML = "Sorry, you didn't get the prize."
+// }
+
+// let age = prompt("อายุของคุณ :");
+
+// if (age == 12){
+//     console.log("Go back to sixth grade. ");
+// }
+
+// else if (age == 13){
+//     console.log("Go back to middle school.");
+// }
+
+let score = prompt("Your score :");
+if (score >= 80){
+    document.getElementById("result").innerHTML = "you got a grade A"
 }
 
+else if (score >= 70){
+    document.getElementById("result").innerHTML = "you got a grade B"
+}
+
+else if (score >= 60){
+    document.getElementById("result").innerHTML = "you got a grade C"
+}
+
+else if (score >= 50){
+    document.getElementById("result").innerHTML = "you got a grade D"
+}
+
+else if (score <= 49){
+    document.getElementById("result").innerHTML = "you got a grade F"
+}
 
