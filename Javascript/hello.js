@@ -108,24 +108,33 @@
 //     console.log("Go back to middle school.");
 // }
 
-let score = prompt("Your score :");
-if (score >= 80){
-    document.getElementById("result").innerHTML = "you got a grade A"
-}
+// let score = prompt("Your score :");
+// if (score >= 80){
+//     document.getElementById("result").innerHTML = "you got a grade A"
+// }
 
-else if (score >= 70){
-    document.getElementById("result").innerHTML = "you got a grade B"
-}
+// else if (score >= 70){
+//     document.getElementById("result").innerHTML = "you got a grade B"
+// }
 
-else if (score >= 60){
-    document.getElementById("result").innerHTML = "you got a grade C"
-}
+// else if (score >= 60){
+//     document.getElementById("result").innerHTML = "you got a grade C"
+// }
 
-else if (score >= 50){
-    document.getElementById("result").innerHTML = "you got a grade D"
-}
+// else if (score >= 50){
+//     document.getElementById("result").innerHTML = "you got a grade D"
+// }
 
-else if (score <= 49){
-    document.getElementById("result").innerHTML = "you got a grade F"
-}
+// else if (score <= 49){
+//     document.getElementById("result").innerHTML = "you got a grade F"
+// }
 
+// ***********************
+// for (var counter = 0; counter <5; counter++)
+// {
+    //     alert("HELLO" + counter);
+    //     console.log("Hello World!" + counter);
+    // }
+    
+    // ***********************
+    
