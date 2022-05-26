@@ -139,12 +139,16 @@
     // โปรแกรมเครื่องคิดคำนวณค่าอาหาร***********************
     let qrt = prompt("จำนวนสินค้า");   
     // qrt: Quantity จำนวน
+    let sum = 0;
     for (var i = 1; i <= qrt; i++){
         // loop for (เริ่มต้น; เงื่อนไข; การเพิ่มจำนวน)
         // console.log(i);
         // ++ เป็นการเพิ่มตัวเองลงไปหนึ่งครั้ง 
         // + counter คือการเพิ่มตัวเลขในเเงื่อนไข
         let item_price = prompt("ราคาสินชิ้นที่" +i);
+        sum = sum + parseInt (item_price)
+
         document.getElementById("price-list").innerHTML += "รายการสินค้าชิ้นที่" + i + ":" + " " + item_price + "บาท" + " " +"<br>"
         // += คือการเพิ่มข้อมูลต่อจากเดิมไปเรื่อยๆ
     }
+    document.getElementById("result").innerHTML = "ราคารวมสินค้า" + sum + "บาท"
