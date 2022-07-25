@@ -39,7 +39,7 @@ console.log(typeof(age));
 console.log(Name); */
 
 //แปรงชนิดข้อมูล Type Conversion
-let money = 100;
+/* let money = 100;
 let FirstName = "wachirawit";
 let price = parseInt("199.99"); //parseInt() คือการแปรงข้อมูลประเภท string --> number
 let price1 = +"199.99"; // เครื่องหมาย + เติมด้านหน้าคือการแปรงข้อมูลประเภท string --> number
@@ -49,4 +49,8 @@ let price3 = 99.99.toString() // .toString() แปรง number --> string
 console.log(typeof(price));
 console.log(typeof(price1));
 console.log(typeof(price2));
-console.log(typeof(price3));
+console.log(typeof(price3)); */
+
+
+//การสร้าง Array 
+let colors = Array("red, blue, yellow, green");
