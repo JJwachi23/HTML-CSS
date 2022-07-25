@@ -27,14 +27,26 @@ console.log(Name);
 Name = "jele"
 console.log(Name);  */
 
+/* ***** ชนิดของตรวจข้อมูล
 let FirstName = "wachirawit"
-let LastName = "Mool-ang"
+let CheckName = true;
 let age = 20;
-let price = 199.99;
-let massage = "Hello!"
+let Name = "20"+10;
 
-console.log(typeof (FirstName));
-console.log(LastName);
-console.log(age);
+console.log(typeof(FirstName)); // typeof เป็นคำสั่งเช็คประเภทของข้อมูล
+console.log(typeof (CheckName));
+console.log(typeof(age));
+console.log(Name); */
+
+//แปรงชนิดข้อมูล Type Conversion
+let money = 100;
+let FirstName = "wachirawit";
+let price = parseInt("199.99"); //parseInt() คือการแปรงข้อมูลประเภท string --> number
+let price1 = +"199.99"; // เครื่องหมาย + เติมด้านหน้าคือการแปรงข้อมูลประเภท string --> number
+let price2 = 99.99+""; // +"" เป็นการแปลง number --> string
+let price3 = 99.99.toString() // .toString() แปรง number --> string
+
 console.log(typeof(price));
-console.log(massage);
+console.log(typeof(price1));
+console.log(typeof(price2));
+console.log(typeof(price3));
