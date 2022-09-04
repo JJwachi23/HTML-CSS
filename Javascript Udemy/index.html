@@ -8,18 +8,53 @@
 </head>
 <body>
     <h2>Javascript</h2>
-    <button type="button">Click</button>
+
+    <button type="button" onclick="message1()">Click</button>   <!-- มีการสร้าง button จากนั้น onclick ไปที่ funtion message1() -->
+    <button type="button" onclick="message2()">Click</button>
+    <button type="button" onclick="message3()">Click</button>
 
     <script>
-        document.querySelector('h2').innerHTML = message;
+        var var1, var2, var3;       //สร้างตัวแปรที่ชื่อว่า var1, var2, var3
+        var1 = var2 = var3 = 0;     //กำหรดตัวแปรให้มีค่าเริ่มต้นที่ 0;
+
+        function message1(){        //ประกาศ funtion message1() ให้ var1++; (หรือว่าทุกครั้งที่กด button ให้ +1 ไปเรื่อยๆ) จากนั้นมีการเรียกใช้งาน function message() เพื่อให้ความชัวร์ในการกด button ว่าค่าตรงกันกับที่แสดงออก console.log(var1) 
+            var1++;
+            message();
+            console.log(var1);
+        }
+
+        function message2(){
+            var2++;
+            message();
+            console.log(var2);
+        }
+
+        function message3() {
+            var3++;
+            message();
+            console.log(var3);
+        }
+
+        function message() {
+            document.querySelector('h2').innerHTML = var1 + ' ' + var2 + ' ' + var3; 
+            // function message() มีการเรียกใช้งาน HTML ในส่วนของ h2 ( h2 ในที่นี้ให้ไปแสดงแทน Javascript)
+        }
+
+        // var b = 0;
+
+        // function message(a){
+        //     b++;
+        //     var output = a + '' + b;
+        //     document.querySelector('h2').innerHTML = output;
+        //     console.log(a);
+        // }
         // var a = "Wachirawit";
         // var b = "Mool-ang";
         // console.log(a+b);
         // var c = 20;
 
-        var message = "Hello World!";
-        const a = 'Is "JavaScript" a \'programming\' language or a \'scripting\' language?';
-        const b = "Is \"JavaScript\" a 'programming' language or a 'scripting' language?";
+        // var message = "Hello World!";
+  
     </script>
 </body>
 </html>
