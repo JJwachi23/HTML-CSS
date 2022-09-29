@@ -32,3 +32,58 @@ const now = new Date(); {
 
     console.log(now);
 }
+
+var x = 20;
+x = 30;
+console.log(x);
+
+
+let y = 40;
+y = 50;
+console.log(y);
+
+let a = "10";
+let b = "10";
+
+console.log(a + b); 
+console.log(parseInt(a) + parseInt(b)); //parseInt เป็นคำสั่งที่แปลงข้อมูลจาก string --> number
+
+let myArray = ["red", "green", "blue", 23, true]
+console.log(myArray[3]);
+console.log(myArray);
+console.log(myArray.length);
+console.log(typeof(myArray[3]));
+
+myArray.push("black");
+console.log(myArray);
+console.log(myArray.length);
+
+let obj = {
+    name: "Wachirawit",
+    lastName: "Mool-ang", 
+    age: 20
+}
+
+console.log(obj);
+console.log(typeof(obj));
+console.log(obj["name"]);
+console.log(obj.name, obj.lastName);
+
+let un = undefined;
+console.log(typeof(undefined));
+
+let nu = null;
+console.log(typeof(null));
+
+console.log(un == nu);
+console.log(un === nu);
+
+function math (x, y) {
+return x + y;
+}
+
+console.log("result", math(10, 20));
+function log(data) {
+    console.log(data);
+    return;
+}

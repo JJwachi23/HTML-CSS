@@ -4,12 +4,7 @@
     box-sizing: border-box;
 }
 
-.color {
-    color: red;
-    text-align: center;
-    background-color: yellow;
-}
-
-.link {
-    text-decoration: none;
+h2 {
+    margin-bottom: 20px;
+    color: blue;
 }
