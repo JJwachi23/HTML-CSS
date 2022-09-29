@@ -25,3 +25,10 @@ var varl1 = myArray1.push('test');
 
 console.log(myArray1);
 console.log(varl1);
+
+console.log(typeof(myArray1));
+
+const now = new Date(); {
+
+    console.log(now);
+}
