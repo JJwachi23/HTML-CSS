@@ -142,7 +142,7 @@ myArray2.shift(); //เป็นการย้าย obj index(0)ออกไ�
 
 /*myArray2.map((myVal, index) =>{
     console.log("This is index:", index, "=", myVal); //Arrow function เป็นการประกาศ Function อีกแบบหนึ่ง
-    //map คือการ
+    //.map คือการ
 })*/
 
 let myArray4 = [
@@ -156,3 +156,4 @@ let myNewArray4 = myArray4.map ((myVal2, index) =>{
     return myVal2.name;
 })
 console.log(myNewArray4);
+
