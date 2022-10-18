@@ -148,10 +148,15 @@ console.log(person); */
 
 
 //pure function
-const depth = 100;
+/* const depth = 100;
 const calculateArea = (width, height) => {
     return width * height * depth;
 }
 
 const result = calculateArea(8, 8);
-console.log(result);
+console.log(result); */
+
+
+
+//map, filter, find/findindex, reduce
+const nums = 100;
