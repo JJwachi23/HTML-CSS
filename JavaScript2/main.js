@@ -157,6 +157,52 @@ const result = calculateArea(8, 8);
 console.log(result); */
 
 
+// arrow function (pure function)
+/*const lastName = 'Mool-ang'
+const fullName = (name) => {
+    return name + ' ' + lastName;
+}
 
-//map, filter, find/findindex, reduce
-const nums = 100;
+const result = fullName('Wachirawit');
+console.log(result); */
+
+//Method --> map, filter, find/findindex, reduce
+
+//array.map
+//Ex.1
+/*const nums = [1, 2, 3, 4];
+for(let i = 0; i < nums.length; i++) {
+    nums [i] += 5;
+}
+
+console.log(nums); */
+//โดยการเขียนแบบนี้ไม่ใช่การเขียนแบบ functional programming เพราะว่าค่า nums มีการเปลี่ยนแปลงซึ่งอยู่นอก scope
+
+const nums = [1, 2, 3, 4]
+const newNums = nums.map(num => num += 5);
+
+console.log(nums);
+console.log(newNums);
+
+const evenNums = nums.filter(num => num % 2 === 0);
+console.log(evenNums);
+
+const numberTwo = nums.find(num => num ===4);
+console.log(numberTwo);
+
+const index = nums.findIndex(num => num ===4);
+console.log(index);
+
+const sum = nums.reduce((acc, num) => acc + num, 0);
+console.log(sum);
+
+//asynce await
+const requestData = async () => {
+    const result = await fetch('htt://jsonplaceholder.typicode.com/posts');
+    const data = await result.json()
+
+    console.log(data);
+    return data;
+}
+
+const data = requestData
